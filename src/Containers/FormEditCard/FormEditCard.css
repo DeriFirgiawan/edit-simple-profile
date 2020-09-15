@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-edit-name {
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 4px 8px #eee;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  width: 30rem;
+  height: 5rem;
+  transition: 3s all ease-out;
+}
+
+.card-edit-name label, input{
+  margin: 10px;
+  padding: 10px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  border-bottom: 1px solid #eee;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+  outline: #eee;
+  font-size: 15px;
+}
+
+input:nth-child(2) {
+  background-color: rgb(31, 173, 31);
+  color: white;
+  cursor: pointer;
+}
